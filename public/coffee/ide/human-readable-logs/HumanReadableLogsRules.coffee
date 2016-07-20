@@ -92,6 +92,6 @@ define -> [
 		regexToMatch: /LaTeX Error: Can be used only in preamble/
 		extraInfoURL: "https://www.sharelatex.com/learn/Errors/LaTeX_Error:_Can_be_used_only_in_preamble"
 		humanReadableHint: """
-			You have used a command in the main body of your document which should be used in the preamble. Make sure that \\documentclass[\u2026]{\u2026} and all \\usepackage{\u2026} commands are written before \\begin{document}.
+			You have used a command in the main body of your document which should be used in the preamble. Make sure that \\documentclass[\u2026]{\u2026} and all \\usepackage{\u2026} commands are written before \\begin{document}
 		"""
 ]
