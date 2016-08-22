@@ -104,13 +104,13 @@ define -> [
 		regexToMatch: /Double superscript/
 		extraInfoURL: "https://www.sharelatex.com/learn/Errors/Double_superscript"
 		humanReadableHint: """
-			You have written a double superscript incorrectly as a^b^c, or else you have written a prime with a superscript. Remember to include { and } when using multiple superscripts.
+			You have written a double superscript incorrectly as a^b^c, or else you have written a prime with a superscript. Remember to include { and } when using multiple superscripts. Try a^{b^c} instead.
 		"""
 	,
 		regexToMatch: /Double subscript/
 		extraInfoURL: "https://www.sharelatex.com/learn/Errors/Double_subscript"
 		humanReadableHint: """
-			You have written a double subscript incorrectly as a_b_c. Remember to include { and } when using multiple subscripts.
+			You have written a double subscript incorrectly as a_b_c. Remember to include { and } when using multiple subscripts. Try a_{b_c} instead.
 		"""
 	,
 		regexToMatch: /No \\author given/
@@ -128,12 +128,12 @@ define -> [
 		regexToMatch: /LaTeX Error: Something's wrong--perhaps a missing \\item/
 		extraInfoURL: "https://www.sharelatex.com/learn/Errors/LaTeX_Error:_Something%27s_wrong--perhaps_a_missing_%5Citem"
 		humanReadableHint: """
-			There are no entries found in a list you have created. Make sure you label list entries using the \\item command, and that you have not used a list inside a table incorrectly.
+			There are no entries found in a list you have created. Make sure you label list entries using the \\item command, and that you have not used a list inside a table.
 		"""
 	,
 		regexToMatch: /Misplaced \\noalign/
 		extraInfoURL: "https://www.sharelatex.com/learn/Errors/Misplaced_%5Cnoalign"
 		humanReadableHint: """
-			You have used a \\hline command in the wrong place. 
+			You have used a \\hline command in the wrong place, probably outside of a table. If the hline command is inside a table, try placing a \\\ before it.
 		"""
 ]
