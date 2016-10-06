@@ -168,7 +168,7 @@ define -> [
 		regexToMatch: /Illegal unit of measure (pt inserted)/
 		extraInfoURL: "https://www.sharelatex.com/learn/Errors%2FIllegal%20unit%20of%20measure%20(pt%20inserted)"
 		humanReadableHint: """
-			You have written a length, but have not specified the appropriate units (pt, mm, cm etc.). If you have not written a length, check that you have not witten a linebreak \\\ followed by square brackets [\u2026] anywhere.
+			You have written a length, but have not specified the appropriate units (pt, mm, cm etc.). If you have not written a length, check that you have not witten a linebreak \\\\ followed by square brackets [\u2026] anywhere.
 		"""
 	,
 		regexToMatch: /Extra \\right/
